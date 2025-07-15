@@ -34,14 +34,10 @@ Try it online with **Streamlit Cloud**:
 
 frecell/
 │
-├── app.py # Main Streamlit app
-├── requirements.txt # Dependencies
-├── screenshot.png # App preview (optional)
-└── README.md # You are here
-
-yaml
-Copy
-Edit
+├── StreamlitGraphicalUserInterFace.py
+├── CtkGraphicalUserInterFace.py
+├── screenshot.png
+└── README.md
 
 ---
 
@@ -50,7 +46,7 @@ Edit
 1. Clone the repository:
    ```bash
    git clone https://github.com/TAKINGdev/frecell.git
-   cd frecell ```
+   cd frecell
 ---
 📃 License
 This project is licensed under the MIT License — feel free to use and modify it.
@@ -60,4 +56,4 @@ Contributions, issues, and feature requests are welcome!
 If you like this project, please ⭐ it and share with others 😊
 
 🧑‍💻 Author
-Made with ❤️ by TAKINGdev
+Made with ❤️ by TAKING Develop Team
