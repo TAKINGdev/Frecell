@@ -1,59 +1,73 @@
-# 📊 Frecell
+# 📊 Frecell — Your No-Code Data Playground
 
-**Frecell** is a user-friendly, web-based data analysis tool built with [Streamlit](https://streamlit.io/).  
-It allows you to **upload CSV files**, **write and run Pandas queries**, and **create interactive Matplotlib plots** — all from your browser, no coding environment setup required.
+**Frecell** is a user-friendly, browser-based data analysis tool built with [Streamlit](https://streamlit.io/).  
+It lets you upload CSV files, write and run Pandas queries, and design interactive Matplotlib plots — all directly in your browser.
+
+![Frecell Screenshot](FreCell.png)
 
 ---
 
 ## 🚀 Live Demo
 
-Try it online with **Streamlit Cloud**:  
-👉 coming Soon
+Try it online (hosted on Streamlit Cloud):  
+👉 **Coming Soon**
+
 ---
 
 ## ✨ Features
 
-- 📁 Upload and preview CSV files
-- 🧠 Write and evaluate Pandas expressions
-- 📈 Build custom Matplotlib plots with dynamic column selection
-- 🔐 Runs entirely in your browser — no backend setup needed
-- 📤 Export and view data easily
+- 📁 Upload and preview CSV files instantly  
+- 🧠 Write and evaluate Pandas expressions on the fly  
+- 📈 Build dynamic Matplotlib plots with column pickers  
+- 🔐 No backend or setup needed — runs entirely in your browser  
+- 📤 Export and inspect processed data easily
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python 3.x
-- [Pandas](https://pandas.pydata.org/)
-- [Matplotlib](https://matplotlib.org/)
-- [Streamlit](https://streamlit.io/)
+- 🐍 Python 3.x  
+- 🧮 [Pandas](https://pandas.pydata.org/)  
+- 📊 [Matplotlib](https://matplotlib.org/)  
+- 🌐 [Streamlit](https://streamlit.io/)
 
 ---
 
 ## 📂 Project Structure
 
 frecell/
-│
-├── StreamlitGraphicalUserInterFace.py
-├── CtkGraphicalUserInterFace.py
-├── screenshot.png
-└── README.md
+├── StreamlitGraphicalUserInterFace.py # Main Streamlit app
+├── CtkGraphicalUserInterFace.py # Optional: CTk desktop UI
+├── screenshot.png # App preview
+└── README.md # Project documentation
+
+yaml
+Copy
+Edit
 
 ---
 
-## 💻 How to Run Locally
+## 💻 Run Locally
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/TAKINGdev/frecell.git
-   cd frecell
----
+To run Frecell on your machine:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/TAKINGdev/frecell.git
+cd frecell
+
+# 2. Install required libraries
+pip install -r requirements.txt
+
+# 3. Launch the app
+streamlit run StreamlitGraphicalUserInterFace.py
+```
 📃 License
-This project is licensed under the MIT License — feel free to use and modify it.
+This project is licensed under the MIT License — feel free to use, modify, and share!
 
 🤝 Contributions
 Contributions, issues, and feature requests are welcome!
-If you like this project, please ⭐ it and share with others 😊
+If you like this project, please star ⭐ it and share it with fellow data enthusiasts.
 
-🧑‍💻 Author
-Made with ❤️ by TAKING Develop Team
+👨‍💻 Author
+Built with ❤️ by the TAKING Develop Team
